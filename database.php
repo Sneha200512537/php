@@ -5,7 +5,7 @@
       $this->connect_db();
     }
     public function connect_db(){
-      $this->connection = mysqli_connect('172.31.22.43', 'Sneha200512537', 'Sneha200512537');
+      $this->connection = mysqli_connect('172.31.22.43', 'Sneha200512537','lK4xJK1ROq','Sneha200512537');
       if(mysqli_connect_error()){
         die("Database Connection Failed" . mysqli_connect_error() . mysqli_connect_error());
       }
