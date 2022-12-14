@@ -1,5 +1,4 @@
-Create Database FinalProjectPHP;
-Use FinalProjectPHP;
+Use Sneha200512537;
 CREATE table users(
 	first_name varchar (255),
 	last_name varchar (255),
